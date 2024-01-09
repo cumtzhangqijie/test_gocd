@@ -6,7 +6,7 @@ pipelines:
     lock_behavior: none
     display_order: -1
     materials:
-      git-6a8fcb5:
+      github:
         git: https://github.com/cumtzhangqijie/test_gocd.git
         shallow_clone: false
         auto_update: true
@@ -29,7 +29,7 @@ pipelines:
             tasks:
             - exec:
                 arguments:
-                - job1
+                - job111111
                 command: echo
                 run_if: passed
             - exec:
