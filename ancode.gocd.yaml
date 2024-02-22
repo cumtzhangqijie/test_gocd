@@ -29,7 +29,7 @@ pipelines:
             tasks:
             - exec:
                 arguments:
-                - {{SECRET:[abc][my-password]}}
+                - {{SECRET:[abc][abc]}}
                 command: echo
                 run_if: passed
             - exec:
